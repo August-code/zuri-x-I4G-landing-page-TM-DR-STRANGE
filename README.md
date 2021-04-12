@@ -1,1 +1,1 @@
-# zuri-x-I4G-landing-page-TM-DR-STANGE
+# zuri-x-I4G-landing-page-TM-DR-STRANGE
