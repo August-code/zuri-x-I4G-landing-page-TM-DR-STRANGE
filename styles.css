@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      box-sizing: border-box;
+  }
+  
+  header {
+    background-image: url('images/bgimage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-links > ul {
+      display: flex;
+      align-items: flex-start;
+      list-style-type: none;
+  }
+
+  .nav-links > ul > li {
+    margin: 0 2rem;
+}
+
+.nav-links > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+header > p {
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+header > img {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+#track-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#track-section > div {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+details {
+    margin-bottom: 1rem;
+}
+
+summary:focus {
+    outline: none;
+}
+
+#track-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+details summary {
+    font-size: 1.7rem;
+}
+
+.track-list > li {
+    font-size: 1.5rem;
+}
+
+hr {
+    border-top: 1.5px solid #3198D0;
+    margin: 1rem 0;
+}
+#second-section{
+  padding:0 20px;
+  font-size: 1.6rem;
+    font-weight: bold;
+}
+#toptext #p1{
+   font-size: 1.6rem;
+    color: #E83831;
+    font-weight: bold;
+}
+
+#nav-icon {
+  display: none;
+}
+
+.sidenav .closebtn {
+   display:none;
+}
+input {
+  padding-left: 2rem;
+}
+
+select, input {
+  background-color: #CCE8F8;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-top: rem;
+}
+
+select > option{
+  background-color: white;
+}
+
+select, input:focus {
+  outline: none;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+#imgspec {
+    margin-top: 4rem;
+}
+
+.merge-input {
+  display: flex;
+  margin-bottom: 2rem
+
+}
+
+.merge-input > div {
+  width: 100%;
+}
+
+
+.same-style-input1 {
+    width:90%;
+    height:3.5em;
+}
+.same-style-input2-contain {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.same-style-input2-contain > div {
+  width: 80%;
+}
+
+.same-style-input2 {
+    width: 90%;
+    height:3.5em;
+}
+
+
+#submit-input {
+  background-color: #E83831;
+  padding: 0.8rem 3rem;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: capitalize; 
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary > i {
+  color: #E83831;
+  width: 40px;
+}
+
+
+#submit-contain {
+  display: flex;
+  justify-content: flex-end;
+  width: 95%
+}
+
+
+
+
+
+@media screen and (max-width:615px) {
+  .merge-input {
+      display: block;
+
+}
+  .same-style-input1 {
+    width:100%;
+  }
+  same-style-input2{
+    height: 3.5em;
+  }
+
+  .same-style-input2-contain {
+  width:100%;
+}
+
+.merge-input > div:nth-last-of-type(2) {
+  margin-bottom: 2rem;
+}
+
+.same-style-input1, .same-style-input2 {
+    width:100%;
+    height:3.5em;
+}
+
+  
+}
+
+@media screen and (max-width: 768px) {
+   #imgspec{
+       width: 300px;
+       height: 90px;
+       margin-top: 1rem;
+    }
+    
+  header > p {
+    font-size: 1.6rem
+  }
+    #track-section img {
+        display: none;
+    }
+
+    #nav-icon {
+  display: block;
+}
+
+    /* The side navigation menu */
+.sidenav {
+  height: 90%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden;
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+
+
+.sidenav  > li > a {
+  color: #f1f1f1;
+}
+
+
+.sidenav  > li > a:hover {
+  color: #3198D0;
+}
+
+
+.sidenav .closebtn {
+  color: #E83831;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-decoration: none;
+  display: block;
+}
+
+#nav-icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#nav-icon:hover {
+  cursor: pointer;
+
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+}

@@ -9,7 +9,167 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-links">
+            <img src="images/zuri_icon.svg" alt="Zuri icon">
+            
+            <ul  class="sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li><a href="">Home</a></li>
+                <li><a href="">Curriculum</a></li>
+                <li><a href="">Faqs</a></li>
+            </ul>
+            <span onclick="openNav()" id="nav-icon">&#9776;</span>
+        </nav>
+        <p>Be part of the Zuri Family for the 2021 Internship training. 
+            Get experience in various aspects of Tech
+        </p>
+        <p>Brought to you By</p>
+        <img src="images/i4g.svg" alt="" width="442" height="102" id="imgspec">
+    </header>
+    <main>
+        <section>
+            <div id="track-section">
+                <div>
+                    <h2 id="track-title">Tracks</h2>
+                    <details>
+                        <summary>
+                            <i class="fas fa-angle-right show-tracks"></i>
+                          </button>
+
+                          Mobile Development
+                        </summary>
+                        <ul class="track-list">
+                            <li></li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>
+                          <i class="fas fa-angle-right show-tracks"></i>
+                          Frontend Web Development
+                        </summary>
+                        <ul class="track-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>
+                          <i class="fas fa-angle-right show-tracks"></i>
+                          Backend Web Development
+                        </summary>
+                        <ul class="track-list">
+                            <li></li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>
+                          <i class="fas fa-angle-right show-tracks"></i>
+                          Design
+                        </summary>
+                        <ul class="track-list">
+                            <li></li>
+                        </ul>
+                    </details>
+                </div>
+                <img src="images/pic.svg" alt="" >
+            </div>
+            <hr>
+        </section>
+        <section id="second-section">
+           <div id="toptext">
+            <p id="p1">ENTER YOUR DETAILS TO JOIN OUR WAIT LIST</p>
+            <br>
+            <p>Complete the form below and submit, After that await our 
+                email for the next steps to follow
+            </p>
+             </div>
+             <br><br>
+            <form action="" >
+                <div class="merge-input">
+                  <div>
+                    <label for="firstName">First Name</label><br>
+                    <input type="text" id="firstname" class="same-style-input1">
+                </div>
+                <div>
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" id="lastname" class="same-style-input1">
+                </div>
+                </div>
+                <div class="merge-input">
+                    <div>
+                    <label for="lastName">Middle Name</label><br>
+                    <input type="text" id="middlename" class="same-style-input1">
+                </div>
+                <div>
+                    <label for="nationality">Nationality</label><br>
+                    <select id="nationality" class="same-style-input1">
+                        <option value=""></option>
+                        <option value="">Nigeria</option>
+                    </select>  
+                </div>
+                </div>
+                <div class="merge-input">
+                      
+                <div>
+                    <label for="summary">Say something about yourself</label><br>
+                    <input type="text" id="summary" class="same-style-input1">
+                </div>
+                <div>
+                    <label for="email">Email address</label><br>
+                    <input type="email"  id="email" class="same-style-input1">
+                </div>
+                </div>
+                <div class="merge-input">
+                       <div>
+                        <label for="track">Track</label><br>
+                        <select id="track" class="same-style-input2">
+                            <option value=""></option>
+                            <option value="">Mobile</option>
+                            <option value="">Front end</option>
+                            <option value="">Back end</option>
+                            <option value="">Design</option>
+                        </select>  
+                    </div>
+                    <div>
+                        <label for="experience">Experience Level</label><br>
+                        <select id="experience" class="same-style-input2">
+                            <option value=""></option>
+                            <option value="">Beginner</option>
+                            <option value="">Intermediate</option>
+                            <option value="">Expert</option>
+                            <option value="">Design</option>
+                        </select>  
+                    </div>
+                </div>
+                  <div class="merge-input">
+                       <div>
+                        <label for="gender">Gender</label><br>
+                        <select id="gender" class="same-style-input2">
+                            <option value=""></option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                        </select>  
+                    </div>
+                    <div>
+                        <label for="age">Age range</label><br>
+                        <select id="age"class="same-style-input2">
+                            <option value=""></option>
+                            <option value="">Below 18</option>
+                            <option value="">Above 18</option>
+                        </select>  
+                    </div>
+                  </div>
+                  <div id="submit-contain">
+                     <input type="submit" value="enroll" id="submit-input">
+                  </div>
+
+
+              </div>
+            </form>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
